@@ -19,11 +19,11 @@
 
 require 'rubygems'
 
-require 'lib/gem'
-require 'lib/ruby'
-require 'lib/server'
-require 'lib/bundler'
-require 'lib/environment'
+require 'torquebox/gem'
+require 'torquebox/ruby'
+require 'torquebox/server'
+require 'torquebox/bundler'
+require 'torquebox/environment'
 
 puts ">>>>> Environment <<<<<<"
 TorqueBox::Environment.display

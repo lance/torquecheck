@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{torquecheck}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Lance Ball"]
@@ -18,11 +18,11 @@ Gem::Specification.new do |s|
   s.files = [
     "LICENSE",
     "README",
-    "lib/bundler.rb",
-    "lib/environment.rb",
-    "lib/gem.rb",
-    "lib/ruby.rb",
-    "lib/server.rb",
+    "lib/torquebox/bundler.rb",
+    "lib/torquebox/environment.rb",
+    "lib/torquebox/gem.rb",
+    "lib/torquebox/ruby.rb",
+    "lib/torquebox/server.rb",
     "bin/torquecheck"
   ]
   s.homepage = %q{http://github.com/lance/torquecheck}

@@ -19,11 +19,16 @@
 
 require 'rubygems'
 
-require File.join(__FILE__, '..', '..', 'lib/gem' )
-require File.join(__FILE__, '..', '..', 'lib/ruby' )
-require File.join(__FILE__, '..', '..', 'lib/server' )
-require File.join(__FILE__, '..', '..', 'lib/bundler' )
-require File.join(__FILE__, '..', '..', 'lib/environment' )
+#require File.join(__FILE__, '..', '..', 'lib/gem' )
+#require File.join(__FILE__, '..', '..', 'lib/ruby' )
+#require File.join(__FILE__, '..', '..', 'lib/server' )
+#require File.join(__FILE__, '..', '..', 'lib/bundler' )
+#require File.join(__FILE__, '..', '..', 'lib/environment' )
+require 'gem'
+require 'ruby'
+require 'server'
+require 'bundler'
+require 'environment'
 
 puts ">>>>> Environment <<<<<<"
 TorqueBox::Environment.display

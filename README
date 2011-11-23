@@ -1,0 +1,6 @@
+
+Simple utility that will display your TorqueBox environment and such.
+
+Usage:
+$ gem install torquecheck
+$ torquecheck
